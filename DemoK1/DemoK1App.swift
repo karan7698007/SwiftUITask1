@@ -1,14 +1,14 @@
 //
-//  DemoKApp.swift
-//  DemoK
+//  DemoK1App.swift
+//  DemoK1
 //
-//  Created by Karan Sarvaiya on 27/01/25.
+//  Created by Dikshit D on 29/01/25.
 //
 
 import SwiftUI
 
 @main
-struct DemoKApp: App {
+struct DemoK1App: App {
     var body: some Scene {
         WindowGroup {
             CityListView()

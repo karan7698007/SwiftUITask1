@@ -1,18 +1,17 @@
 //
-//  DemoKTests.swift
-//  DemoKTests
+//  DemoK1Tests.swift
+//  DemoK1Tests
 //
-//  Created by Karan Sarvaiya on 27/01/25.
+//  Created by Dikshit D on 29/01/25.
 //
 
 import XCTest
-@testable import DemoK
+@testable import DemoK1
 
-final class DemoKTests: XCTestCase {
+final class DemoK1Tests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
-        
     }
 
     override func tearDownWithError() throws {

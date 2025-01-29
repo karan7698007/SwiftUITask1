@@ -1,13 +1,13 @@
 //
-//  DemoKUITests.swift
-//  DemoKUITests
+//  DemoK1UITests.swift
+//  DemoK1UITests
 //
-//  Created by Karan Sarvaiya on 27/01/25.
+//  Created by Dikshit D on 29/01/25.
 //
 
 import XCTest
 
-final class DemoKUITests: XCTestCase {
+final class DemoK1UITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -22,7 +22,6 @@ final class DemoKUITests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    @MainActor
     func testExample() throws {
         // UI tests must launch the application that they test.
         let app = XCUIApplication()
@@ -31,7 +30,6 @@ final class DemoKUITests: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
 
-    @MainActor
     func testLaunchPerformance() throws {
         if #available(macOS 10.15, iOS 13.0, tvOS 13.0, watchOS 7.0, *) {
             // This measures how long it takes to launch your application.

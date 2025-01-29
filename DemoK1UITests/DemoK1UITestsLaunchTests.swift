@@ -1,13 +1,13 @@
 //
-//  DemoKUITestsLaunchTests.swift
-//  DemoKUITests
+//  DemoK1UITestsLaunchTests.swift
+//  DemoK1UITests
 //
-//  Created by Karan Sarvaiya on 27/01/25.
+//  Created by Dikshit D on 29/01/25.
 //
 
 import XCTest
 
-final class DemoKUITestsLaunchTests: XCTestCase {
+final class DemoK1UITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
@@ -17,7 +17,6 @@ final class DemoKUITestsLaunchTests: XCTestCase {
         continueAfterFailure = false
     }
 
-    @MainActor
     func testLaunch() throws {
         let app = XCUIApplication()
         app.launch()
